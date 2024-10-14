@@ -9,6 +9,7 @@ interface Props {
 }
 
 export const Header: FC<Props> = ({className}) => {
+
   return (
     <header className={cn('border border-b', className)}>
       <Container className='flex items-center justify-between py-8'>
